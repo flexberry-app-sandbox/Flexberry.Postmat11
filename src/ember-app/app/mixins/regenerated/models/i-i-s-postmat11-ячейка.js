@@ -38,8 +38,8 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЯчейкаE', 'i-i-s-postmat11-ячейка', {
     номерЯчейки: attr('Номер ячейки', { index: 0 }),
     хранение: belongsTo('i-i-s-postmat11-хранение', 'Хранение', {
-      датаНачала: attr('Начала', { index: 2, hidden: true }),
-      датаЗавершения: attr('конец', { index: 3, hidden: true }),
+      датаНачала: attr('Начала', { index: 2 }),
+      датаЗавершения: attr('конец', { index: 3 }),
       продления: attr('Продления', { index: 4, hidden: true })
     }, { index: 1, displayMemberPath: 'продления' })
   });

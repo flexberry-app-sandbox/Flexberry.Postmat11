@@ -34,8 +34,6 @@ namespace IIS.Postmat11
             "Хранение.ДатаНачала as \'Начала\'",
             "Хранение.ДатаЗавершения as \'конец\'",
             "Хранение.Продления as \'Продления\'"}, Hidden=new string[] {
-            "Хранение.ДатаНачала",
-            "Хранение.ДатаЗавершения",
             "Хранение.Продления"})]
     [MasterViewDefineAttribute("ЯчейкаE", "Хранение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Продления")]
     public class Ячейка : ICSSoft.STORMNET.DataObject

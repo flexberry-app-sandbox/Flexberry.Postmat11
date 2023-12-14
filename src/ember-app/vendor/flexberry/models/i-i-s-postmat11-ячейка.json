@@ -56,13 +56,13 @@
             {
               "name": "датаНачала",
               "caption": "Начала",
-              "hidden": true,
+              "hidden": false,
               "index": 2
             },
             {
               "name": "датаЗавершения",
               "caption": "конец",
-              "hidden": true,
+              "hidden": false,
               "index": 3
             },
             {
