@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-postmat11-пользователь-e",
+  "editForm": "i-i-s-postmat11-пользователь-e",
+  "external": false,
+  "caption": "Пользователь",
+  "name": "IISPostmat11ПользовательL",
+  "className": "ПользовательL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postmat11-пользователь",
+      "modelProjection": "ПользовательL"
+    }
+  ]
+}

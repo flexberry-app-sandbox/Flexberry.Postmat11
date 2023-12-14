@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Postmat11.model.YAchejka</class>
+        <class>Postmat11.model.Postamat</class>
+        <class>Postmat11.model.Xranenie</class>
+        <class>Postmat11.model.Polzovatel</class>
+        <class>Postmat11.model.Posylka</class>
+        <class>Postmat11.model.Logistika</class>
+        <class>Postmat11.model.SluzhbaDostavki</class>
+        <class>Postmat11.model.Tranzakciya</class>
+        <class>Postmat11.model.FlexberryAdvLimit</class>
+        <class>Postmat11.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Postmat11.model.NewPlatformFlexberryServicesLock</class>
+        <class>Postmat11.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

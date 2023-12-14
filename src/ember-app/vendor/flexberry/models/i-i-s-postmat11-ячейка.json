@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISPostmat11Ячейка",
+  "modelName": "i-i-s-postmat11-ячейка",
+  "className": "Ячейка",
+  "nameSpace": "IIS.Postmat11",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЯчейки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "хранение",
+      "relatedTo": "i-i-s-postmat11-хранение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "постамат",
+      "relatedTo": "i-i-s-postmat11-постамат",
+      "inverse": "ячейка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЯчейкаE",
+      "modelName": "i-i-s-postmat11-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Продления",
+          "lookupValueField": "продления",
+          "relationName": "Хранение",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "датаНачала",
+              "caption": "Начала",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "датаЗавершения",
+              "caption": "конец",
+              "hidden": true,
+              "index": 3
+            },
+            {
+              "name": "продления",
+              "caption": "Продления",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Хранение",
+          "name": "хранение",
+          "relatedTo": "i-i-s-postmat11-хранение",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

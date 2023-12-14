@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Postmat11",
+  "applicationTitle": "Postmat11",
+  "items": [
+    {
+      "link": null,
+      "menuName": "postmat11",
+      "caption": "Postmat11",
+      "title": "Postmat11",
+      "children": [
+        {
+          "link": "i-i-s-postmat11-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postmat11-хранение-l",
+          "menuName": null,
+          "caption": "Хранение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postmat11-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postmat11-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postmat11-транзакция-l",
+          "menuName": null,
+          "caption": "Транзакция",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
