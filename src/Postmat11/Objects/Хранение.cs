@@ -28,6 +28,13 @@ namespace IIS.Postmat11
     // *** End programmer edit section *** (Хранение CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("ХранE", new string[] {
+            "Номер as \'Номер\'",
+            "ДатаНачала as \'ДатаНачала\'",
+            "ДатаЗавершения as \'ДатаЗавершения\'",
+            "Продления as \'Продление\'"})]
+    [AssociatedDetailViewAttribute("ХранE", "Посылка", "ПосылкаE", true, "", "Посылка", true, new string[] {
+            ""})]
     [View("ХранениеE", new string[] {
             "Номер as \'Номер\'",
             "ДатаНачала as \'Дата начала\'",
@@ -230,6 +237,17 @@ namespace IIS.Postmat11
         /// </summary>
         public class Views
         {
+            
+            /// <summary>
+            /// "ХранE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ХранE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ХранE", typeof(IIS.Postmat11.Хранение));
+                }
+            }
             
             /// <summary>
             /// "ХранениеE" view.

@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-postmat11-постамат-l',
             caption: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-постамат-l.caption'),
             title: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-постамат-l.title'),
-            icon: 'paperclip',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-postmat11-хранение-l',
             caption: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-хранение-l.caption'),
             title: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-хранение-l.title'),
-            icon: 'folder open',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-postmat11-пользователь-l',
             caption: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-пользователь-l.title'),
-            icon: 'briefcase',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-postmat11-служба-доставки-l',
@@ -52,7 +52,7 @@ export default Controller.extend({
             link: 'i-i-s-postmat11-транзакция-l',
             caption: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-транзакция-l.caption'),
             title: i18n.t('forms.application.sitemap.postmat11.i-i-s-postmat11-транзакция-l.title'),
-            icon: 'paperclip',
+            icon: 'archive',
             children: null
           }]
         }

@@ -50,6 +50,17 @@ export let ValidationRules = {
 };
 
 export let defineProjections = function (modelClass) {
+  modelClass.defineProjection('ХранE', 'i-i-s-postmat11-хранение', {
+    номер: attr('Номер', { index: 0 }),
+    датаНачала: attr('ДатаНачала', { index: 1 }),
+    датаЗавершения: attr('ДатаЗавершения', { index: 2 }),
+    продления: attr('Продление', { index: 3 }),
+    посылка: hasMany('i-i-s-postmat11-посылка', 'Посылка', {
+      номер: attr('Номер', { index: 0 }),
+      статус: attr('Статус', { index: 1 })
+    })
+  });
+
   modelClass.defineProjection('ХранениеE', 'i-i-s-postmat11-хранение', {
     номер: attr('Номер', { index: 0 }),
     датаНачала: attr('Дата начала', { index: 1 }),
