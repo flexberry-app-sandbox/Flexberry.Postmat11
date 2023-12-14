@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Посылка.Транзакция",
+      "projection": "ТранзакцияL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "",
+  "name": "IISPostmat11ХранE",
+  "className": "ХранE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postmat11-хранение",
+      "modelProjection": "ХранениеE"
+    }
+  ]
+}

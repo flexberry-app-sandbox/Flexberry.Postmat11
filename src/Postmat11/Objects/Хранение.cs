@@ -32,6 +32,13 @@ namespace IIS.Postmat11
             "Номер as \'Номер\'",
             "ДатаНачала as \'Дата начала\'",
             "ДатаЗавершения as \'Дата завершения\'",
+            "Продления as \'Продление\'"})]
+    [AssociatedDetailViewAttribute("ХранениеE", "Посылка", "ПосылкаE", true, "", "Посылка", true, new string[] {
+            ""})]
+    [View("ХранениеE", new string[] {
+            "Номер as \'Номер\'",
+            "ДатаНачала as \'Дата начала\'",
+            "ДатаЗавершения as \'Дата завершения\'",
             "Продления as \'Продления\'"})]
     [AssociatedDetailViewAttribute("ХранениеE", "Посылка", "ПосылкаE", true, "", "Посылка", true, new string[] {
             ""})]
@@ -228,6 +235,17 @@ namespace IIS.Postmat11
             /// "ХранениеE" view.
             /// </summary>
             public static ICSSoft.STORMNET.View ХранениеE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ХранениеE", typeof(IIS.Postmat11.Хранение));
+                }
+            }
+            
+            /// <summary>
+            /// "ХранениеE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ХранениеE2
             {
                 get
                 {

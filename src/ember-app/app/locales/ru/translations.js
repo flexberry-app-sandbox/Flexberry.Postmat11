@@ -10,6 +10,7 @@ import IISPostmat11ПользовательEForm from './forms/i-i-s-postmat11-�
 import IISPostmat11ПостаматEForm from './forms/i-i-s-postmat11-постамат-e';
 import IISPostmat11СлужбаДоставкиEForm from './forms/i-i-s-postmat11-служба-доставки-e';
 import IISPostmat11ТранзакцияEForm from './forms/i-i-s-postmat11-транзакция-e';
+import IISPostmat11ХранEForm from './forms/i-i-s-postmat11-хран-e';
 import IISPostmat11ХранениеEForm from './forms/i-i-s-postmat11-хранение-e';
 import IISPostmat11ЛогистикаModel from './models/i-i-s-postmat11-логистика';
 import IISPostmat11ПользовательModel from './models/i-i-s-postmat11-пользователь';
@@ -142,6 +143,7 @@ $.extend(true, translations, {
     'i-i-s-postmat11-постамат-e': IISPostmat11ПостаматEForm,
     'i-i-s-postmat11-служба-доставки-e': IISPostmat11СлужбаДоставкиEForm,
     'i-i-s-postmat11-транзакция-e': IISPostmat11ТранзакцияEForm,
+    'i-i-s-postmat11-хран-e': IISPostmat11ХранEForm,
     'i-i-s-postmat11-хранение-e': IISPostmat11ХранениеEForm
   },
 
